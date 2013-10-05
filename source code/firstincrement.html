@@ -1,0 +1,265 @@
+<!-- Home -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+       
+        <h3>
+            TRAVELLER'S EYE
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="username">
+                <b> USERNAME</b>
+            </label><br></br>
+            <input name="" id="username" placeholder="" value="" type="text">
+            </div>
+        <div data-role="fieldcontain">
+            <label for="password">
+                <b> PASSWORD</b>
+            </label><br>
+            <input name="" id="password" placeholder="" value="" type="password">
+        </div><br>
+        <a href="#signinpage"id="signin" data-role="button" data-theme="e" href="#page1">
+            SIGN IN
+        </a><br><br>
+        <div>
+            <a href="#signuppage" data-transition="fade" id="signup">
+                SIGN UP
+            </a>
+            </div>
+        <div><br><br>
+            <a href="#reset" id="resetpassword" href="" data-transition="fade">
+                RESET PASSWORD
+            </a>
+        </div>
+    </div>
+</div>
+            <div data-role="page" id="signuppage">
+               
+    <div data-theme="a" data-role="header">
+        <h3>
+            TRAVELLER"S INFO
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="textinput4">
+                <b> NAME(Username) </b>
+            </label><br>
+            <input name="" id="textinput4" placeholder="" value="" type="text">
+        </div>
+             <div data-role="fieldcontain">
+            <label for="textinput7">
+                <b> PASSWORD </b>
+            </label><br>
+                   <input name="" id="textinput7" placeholder="" value="" type="password">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textinput5">
+                <b> AGE </b>
+            </label><br>
+            <input name="" id="textinput5" placeholder="" value="" type="text">
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <p>
+                    <b>GENDER</b>
+                </p><br>
+                <input id="radio1" name="" value="radio1" type="radio">
+                <label for="radio1">
+                    MALE
+                </label>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <input id="radio2" name="" value="radio1" type="radio">
+                <label for="radio2">
+                     FEMALE
+                </label>
+            </fieldset>
+        </div>
+        <div id="checkboxes1" data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <legend>
+                    <b> Hobbies</b>
+                </legend>
+                <input id="checkbox1" name="shopping" data-theme="e" type="checkbox">
+                <label for="checkbox1">
+                    Shopping
+                </label>
+                <input id="checkbox2" name="games" data-theme="b" type="checkbox">
+                <label for="checkbox2">
+                    Games
+                </label>
+                <input id="checkbox3" name="films" data-theme="e" type="checkbox">
+                <label for="checkbox3">
+                    Films
+                </label>
+                <input id="checkbox4" name="book reading" data-theme="b" type="checkbox">
+                <label for="checkbox4">
+                    Book Reading
+                </label>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textarea3">
+                <b>  Personal Contact </b>
+            </label>
+            <textarea name="personal contact" id="textarea3" placeholder=""></textarea>
+        </div>
+                    
+                     <a data-role="button" href="#page1">
+            Submit
+        </a>
+    </div>
+</div>
+            </div>
+            
+             <div data-role="page" id="reset">
+                 <div data-theme="a" data-role="header">
+        <h3>
+            Header
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+            <label for="textinput2">
+                Old Password
+            </label>
+            <input name="" id="textinput2" placeholder="" value="" type="password">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textinput3">
+                New Password
+            </label>
+            <input name="" id="textinput3" placeholder="" value="" type="password">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textinput4">
+                Re-enter New Password
+            </label>
+            <input name="" id="textinput4" placeholder="" value="" type="password">
+                  
+                     <a data-role="button" href="#page1">
+            Submit
+        </a>
+        </div>
+    </div>
+            </div>
+            <div data-role="page" id="signinpage">
+                <div data-theme="a" data-role="header">
+          <h3>
+            sign In page
+        </h3><a data-rel="back" data-icon="home">Home</a>
+                    
+    </div>
+    <div data-role="content">
+        <div data-role="fieldcontain">
+           
+            <label for="textinput1">
+                SOURCE
+            </label>
+            <input name="" id="textinput1" placeholder="" value="" type="text">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textinput2">
+                DESTINATION
+            </label>
+            <input name="" id="textinput2" placeholder="" value="" type="text">
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <p>
+                    <b> Trip Purpose</b>
+                </p><br>
+                <input id="radio1" name="" value="radio1" type="radio">
+                <label for="radio1">
+                    Vacation Trip
+                </label>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <input id="radio2" name="" value="radio1" type="radio">
+                <label for="radio2">
+                    Business trip
+                </label>
+            </fieldset>
+        </div>
+    </div>
+                       <button id="StoreButton" data-theme="a" data-icon="star" data-iconpos="left">
+Hungry ?
+        </button>
+             
+  <a href="#navigation"id="navigation" data-role="button" data-theme="e" href="#signin">
+           navigation
+        </a>
+
+</div>
+             <div data-role="page" id="navigation">
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+         <h1>direction Page</h1>
+       
+     </div>
+    <div data-role="content">
+       
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+   
+var directionDisplay;
+var directionsService = new google.maps.DirectionsService();     //Create a DirectionsService object which is required to communicate with the Google Maps API Direction Service
+var map;
+function initialize()
+{
+            directionsDisplay = new google.maps.DirectionsRenderer();        //Create a DirectionsRenderer object to render the directions results
+    var center = new google.maps.LatLng(0, 0);    //Map is centered at 0,0
+    var myOptions =
+    {
+            zoom:2,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            center: center
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    directionsDisplay.setMap(map);
+    var start = "Kansas";     //Set the source/ origin
+    var end = "Texas";  //Set the destination
+    var request =
+    {
+            origin:start,
+            destination:end,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING          //Current travel mode is DRIVING. You can change to BICYCLING or WALKING and see the changes.
+    };
+    directionsService.route(request, function(response, status)
+    {
+            if (status == google.maps.DirectionsStatus.OK) //Check if request is successful.
+            {
+            directionsDisplay.setDirections(response);         //Display the directions result
+            }
+    });
+}
+</script>
+
+
+<body onload="initialize()">
+<div id="map_canvas" style="height: 400px; width: 400px">
+    
+
+</div>
+</body>
+
+          </div>
+      </div>
+            
+
+
+
+        
+        
+       
+
+
